@@ -13,7 +13,7 @@ const supabase = {
     select: () => ({
       eq: () => ({
         single: () => Promise.resolve({ 
-          data: { id: 'demo-user', email: 'demo@example.com', full_name: 'John Doe', role: 'student' }
+          data: { id: 'demo-user', email: 'demo@example.com', full_name: 'Chaitanya', role: 'student' }
         })
       })
     }),
